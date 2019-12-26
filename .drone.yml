@@ -1,0 +1,8 @@
+pipeline:
+  run_golang:
+    group: build
+    image: golang
+    commands:
+      - go build
+      - go test
+      - go run mail.go
