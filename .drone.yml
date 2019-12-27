@@ -14,6 +14,11 @@ pipeline:
     image: plugins/ecr
     region: us-east-1
     repo: 318397008453.dkr.ecr.us-east-1.amazonaws.com/chillyzhong/go-drone-build
+    environment:
+      - AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
+      - AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
+    secrets: [AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY]
     tags:
+      - "${DRONE_COMMIT:0:7}"
       - latest
 
