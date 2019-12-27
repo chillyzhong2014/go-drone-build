@@ -1,7 +1,10 @@
+workspace:
+  base: /go
+  path: src/github.com/chillyzhong2014/go-drone-build
+
 pipeline:
-  run_golang:
-    group: build
-    image: golang
+  build_and_test:
+    image: library/golang:1.10
     commands:
       - go build
       - go test
