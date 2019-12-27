@@ -16,3 +16,4 @@ pipeline:
     repo: 318397008453.dkr.ecr.us-east-1.amazonaws.com/chillyzhong/go-drone-build
     tags:
       - latest
+
