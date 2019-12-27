@@ -1,9 +1,9 @@
 FROM alpine:3.5
 
-RUN mkdir /bin
+RUN mkdir /app
 
-COPY go-drone-build /bin
+COPY go-drone-build /app
 
-WORKDIR /bin
+WORKDIR /app
 
-ENTRYPOINT ["/bin/go-drone-build"]
+ENTRYPOINT ["/app/go-drone-build"]
