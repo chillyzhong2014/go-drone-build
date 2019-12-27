@@ -8,7 +8,7 @@
 	
 
 <script>
-	window.DRONE_USER = {"id":1,"login":"chillyzhong2014","email":"chilly.zhong@gmail.com","avatar_url":"https://avatars0.githubusercontent.com/u/9337935?v=4","active":false,"synced":1577345106};
+	window.DRONE_USER = {"id":1,"login":"chillyzhong2014","email":"chilly.zhong@gmail.com","avatar_url":"https://avatars0.githubusercontent.com/u/9337935?v=4","active":false,"synced":1577346977,"admin":true};
 	window.DRONE_SYNC =  false ;
 </script>
 
