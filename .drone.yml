@@ -10,9 +10,9 @@ pipeline:
       - go test
       - go run email.go
 
-  publish:
-    image: plugins/ecr
-    region: us-east-1
-    repo: 318397008453.dkr.ecr.us-east-1.amazonaws.com/chillyzhong/go-drone-build
-    tags:
-      - latest
+#  publish:
+#    image: plugins/ecr
+#    region: us-east-1
+#    repo: 318397008453.dkr.ecr.us-east-1.amazonaws.com/chillyzhong/go-drone-build
+#    tags:
+#      - latest
