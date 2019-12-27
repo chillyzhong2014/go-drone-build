@@ -9,3 +9,10 @@ pipeline:
       - go build
       - go test
       - go run email.go
+
+  publish:
+    image: plugins/ecr
+    region: us-west-2
+    repo: 512583958123.dkr.ecr.us-west-2.amazonaws.com/devnet/foundation_auth
+    tags:
+      - latest
