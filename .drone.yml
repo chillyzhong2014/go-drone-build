@@ -12,7 +12,7 @@ pipeline:
 
   publish:
     image: plugins/ecr
-    region: us-west-2
-    repo: 512583958123.dkr.ecr.us-west-2.amazonaws.com/devnet/foundation_auth
+    region: us-east-1
+    repo: 318397008453.dkr.ecr.us-east-1.amazonaws.com/chillyzhong/go-drone-build
     tags:
       - latest
