@@ -8,4 +8,4 @@ pipeline:
     commands:
       - go build
       - go test
-      - go run mail.go
+      - go run email.go
